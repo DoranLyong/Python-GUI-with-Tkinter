@@ -34,9 +34,12 @@ btn6 = Button(root, image=photo)
 btn6.pack()
 
 
+
+""" 버튼 클릭 후 기능 실행 
+"""
+
 def btncmd():
     print("버튼이 클릭되었습니다.")
-
 
 btn7 = Button(root, text="동작하는 버튼", command=btncmd)
 btn7.pack()
